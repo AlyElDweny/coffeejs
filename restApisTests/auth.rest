@@ -15,7 +15,6 @@ content-type: application/json
 POST http://localhost:4000/api/auth/login HTTP/1.1
 content-type: application/json
 
-
 {
     "username": "sam_esst",
     "password": "12j34567"
@@ -24,3 +23,8 @@ content-type: application/json
 
 ####### get me
 GET http://localhost:4000/api/auth/me
+
+
+####### logout
+
+GET http://localhost:4000/api/auth/logout
