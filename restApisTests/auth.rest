@@ -1,0 +1,26 @@
+# Note
+# if you are on vscode download (REST Client) extention
+
+POST http://localhost:4000/api/auth/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sam_esst",
+    "email": "samt@fsg.comd",
+    "password": "12j34567"
+}
+
+
+##### Login
+POST http://localhost:4000/api/auth/login HTTP/1.1
+content-type: application/json
+
+
+{
+    "username": "sam_esst",
+    "password": "12j34567"
+}
+
+
+####### get me
+GET http://localhost:4000/api/auth/me
