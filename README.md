@@ -4,7 +4,7 @@
 - module.service.ts : a logic layer to write our business logic.
 - module.repository.ts : a db logic layer to hanle all queries logic written against our data source.
 - module.entity.ts: a class that gather a relation intrinsic to the business.
-- Dtos: are used only to transfer data from one process or context to another.
+- Dtos: interfaces used only to transfer data from one process or context to another.
 
 Prerequisites:
 
