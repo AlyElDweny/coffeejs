@@ -1,6 +1,12 @@
-# Awesome Project Build with TypeORM
+# A structured rest api app in express using typescript, typeorm (based on repository pattern).
 
-prerequisites:
+- module.api.ts : a controller layer to handle how to access this module.
+- module.service.ts : a logic layer to write our business logic.
+- module.repository.ts : a db logic layer to hanle all queries logic written against our data source.
+- module.entity.ts: a class that gather a relation intrinsic to the business.
+- Dtos: are used only to transfer data from one process or context to another.
+
+Prerequisites:
 
 - get Docker installed.
 - get nodejs > 16v installed.
